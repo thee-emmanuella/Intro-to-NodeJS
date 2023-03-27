@@ -5,11 +5,17 @@
 ### • Define Monolithic architecture
 
 A monolithic architecture is a traditional model of a software program, which is built as a unified unit that is self-contained and independent from other applications. A monolithic architecture is a singular, large computing network with one code base that couples all of the business concerns together.
+
 A monolithic application is built as a single unit. Enterprise applications are built in three parts:
+
     1. A database — consisting of many tables usually in a relational database management system
+
     2. A client-side user interface — consisting of HTML pages and/or JavaScript running in a browser
+
     3. A server-side application — which will handle HTTP requests, execute domain-specific logic, retrieve and update data from the database, and populate the HTML views to be sent to the browser.
+
 This is what makes a monolith architecture monolith — it is a single logical executable. To make any changes to the system, a developer must build and deploy an updated version of the server-side application.
+
 Monoliths can be convenient early on in a project's life for ease of code management, cognitive overhead, and deployment. This allows everything in the monolith to be released at once.
 
 ## QUESTION 2
